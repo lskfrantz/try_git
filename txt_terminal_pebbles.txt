@@ -61,3 +61,95 @@ Untracked files:
 
 
 C:\Users\Taffeta\Desktop\try_git>
+
+C:\Users\Taffeta\Desktop\try_git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   txt_terminal_pebbles.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   txt_terminal_pebbles.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new_git.txt
+
+
+C:\Users\Taffeta\Desktop\try_git>git add new_git_txt
+fatal: pathspec 'new_git_txt' did not match any files
+
+C:\Users\Taffeta\Desktop\try_git>git add new_git.txt
+
+C:\Users\Taffeta\Desktop\try_git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   new_git.txt
+        new file:   txt_terminal_pebbles.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   txt_terminal_pebbles.txt
+
+
+C:\Users\Taffeta\Desktop\try_git>git rm --cached new_git.txt 
+rm 'new_git.txt'
+
+C:\Users\Taffeta\Desktop\try_git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   txt_terminal_pebbles.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   txt_terminal_pebbles.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new_git.txt
+
+
+C:\Users\Taffeta\Desktop\try_git>git add .
+
+C:\Users\Taffeta\Desktop\try_git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   new_git.txt
+        new file:   txt_terminal_pebbles.txt
+
+
+C:\Users\Taffeta\Desktop\try_git> git commit -m "first commit"
+[master (root-commit) e86d4fa] first commit
+ 2 files changed, 84 insertions(+)
+ create mode 100644 new_git.txt
+ create mode 100644 txt_terminal_pebbles.txt
+
+C:\Users\Taffeta\Desktop\try_git>git log
+commit e86d4fa50b96eb780d65e312f832056a235600dd (HEAD -> master)
+Author: lskfrantz <rishoukin@gmail.com>
+Date:   Tue Jun 3 17:16:26 2025 +0800
+
+    first commit
+
+C:\Users\Taffeta\Desktop\try_git>
+
+
