@@ -1,0 +1,63 @@
+Microsoft Windows [Version 10.0.26100.4061]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Taffeta\Desktop\try_git>git -v
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Taffeta\Desktop\try_git>git -v
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Taffeta\Desktop\try_git>
+
+
+Microsoft Windows [Version 10.0.26100.4061]
+Microsoft Windows [Version 10.0.26100.4061]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\Taffeta\Desktop\try_git>git -v
+git version 2.49.0.windows.1
+
+C:\Users\Taffeta\Desktop\try_git>git init
+Initialized empty Git repository in C:/Users/Taffeta/Desktop/try_git/.git/
+
+C:\Users\Taffeta\Desktop\try_git>
+C:\Users\Taffeta\Desktop\try_git>
+C:\Users\Taffeta\Desktop\try_git>git add txt_terminal_pebble.txt
+fatal: pathspec 'txt_terminal_pebble.txt' did not match any files
+
+C:\Users\Taffeta\Desktop\try_git>git add txt_terminal_pebbles.txt
+
+C:\Users\Taffeta\Desktop\try_git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   txt_terminal_pebbles.txt
+
+
+C:\Users\Taffeta\Desktop\try_git>
+
+C:\Users\Taffeta\Desktop\try_git>git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   txt_terminal_pebbles.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   txt_terminal_pebbles.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        new_git.txt
+
+
+C:\Users\Taffeta\Desktop\try_git>
