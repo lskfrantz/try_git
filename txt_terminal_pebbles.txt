@@ -152,4 +152,32 @@ Date:   Tue Jun 3 17:16:26 2025 +0800
 
 C:\Users\Taffeta\Desktop\try_git>
 
+C:\Users\Taffeta\Desktop\try_git>git log
+commit e86d4fa50b96eb780d65e312f832056a235600dd (HEAD -> master)
+Author: lskfrantz <rishoukin@gmail.com>
+Date:   Tue Jun 3 17:16:26 2025 +0800
+
+    first commit
+
+C:\Users\Taffeta\Desktop\try_git>git commit -m "second commit"
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   txt_terminal_pebbles.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Taffeta\Desktop\try_git>add .
+'add' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Taffeta\Desktop\try_git>git add .
+
+C:\Users\Taffeta\Desktop\try_git>git commit -m "second commit"
+[master 5d33541] second commit
+ 1 file changed, 93 insertions(+), 1 deletion(-)
+
+C:\Users\Taffeta\Desktop\try_git>
+
 
