@@ -222,4 +222,25 @@ C:\Users\Taffeta\Desktop\try_git>
 
 
 
+C:\Users\Taffeta\Desktop\try_git>git add .
+
+C:\Users\Taffeta\Desktop\try_git>git commit -m "fourth"
+[main 8c6c1d3] fourth
+ 1 file changed, 42 insertions(+)
+
+C:\Users\Taffeta\Desktop\try_git>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 780 bytes | 780.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/lskfrantz/try_git.git
+   c651d85..8c6c1d3  main -> main
+
+C:\Users\Taffeta\Desktop\try_git>
+
+
+
 
