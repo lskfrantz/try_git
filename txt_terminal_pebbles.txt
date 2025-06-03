@@ -180,4 +180,46 @@ C:\Users\Taffeta\Desktop\try_git>git commit -m "second commit"
 
 C:\Users\Taffeta\Desktop\try_git>
 
+echo "# try_git" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/lskfrantz/try_git.git
+git push -u origin main
+
+git remote add origin https://github.com/lskfrantz/try_git.git
+git branch -M main
+git push -u origin main
+
+C:\Users\Taffeta\Desktop\try_git>git commit -m "third time"
+[master c651d85] third time
+ 1 file changed, 28 insertions(+)
+
+C:\Users\Taffeta\Desktop\try_git>git remote add origin https://github.com/lskfrantz/try_git.git
+
+C:\Users\Taffeta\Desktop\try_git>git branch -M main
+
+C:\Users\Taffeta\Desktop\try_git>git remote add origin https://github.com/lskfrantz/try_git.git
+error: remote origin already exists.
+
+C:\Users\Taffeta\Desktop\try_git>git branch -M main
+
+C:\Users\Taffeta\Desktop\try_git>git push -u origin main
+info: please complete authentication in your browser...
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (10/10), done.
+Writing objects: 100% (10/10), 1.78 KiB | 1.78 MiB/s, done.
+Total 10 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), done.
+To https://github.com/lskfrantz/try_git.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Taffeta\Desktop\try_git>
+
+
+
 
